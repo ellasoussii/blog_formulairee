@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form class="form">
+        <fieldset class="fieldset">
+
+
+        <h2 class="titre">Formulaire d' inscription utilisateur</h2>
+        <label for="prenom" class="title3">Prenom</label>
+        <input type="text" id="prenom" class="inputbox" placeholder="Entrez votre prenom">
+        <br><br>
+        <label for="nom" class="title3">Nom</label>
+        <input type="text" id="nom" class="inputbox" placeholder="Entrez votre nom">
+        <br><br>
+        <label for="E-mail" class="title3">E-mail</label>
+        <input type="text" id="E-mail" class="inputbox" placeholder="Entrez votre E-mail">
+        <br><br>
+        <label for="datedenaissance" class="title3">E-mail</label>
+        <input type="date" id="datedenaissance" class="inputbox" placeholder="Entrez votre date d'anniversaire">
+        <br><br>
+        <label for="mdp" class="title3">Password</label>
+        <input type="password" id="mdp" class="inputbox" placeholder="Entrez votre mdp">
+        <br><br>
+        <label for="confirm_mdp" class="title3">Confirmation mdp</label>
+        <input type="password" id="confirm_mdp" class="inputbox" placeholder="Entrez votre mdp">
+        <br><br>
+  
+    
+<fieldset class="minfieldset">
+            <legend class="title3">Genre</legend>
+        
+            <input type="radio" id="masculin" name="genre" class="inputbox">
+            <label for="masculin"  class="title3">Masculin</label>
+
+        
+            <input type="radio" id="feminin" name="genre" class="inputbox">
+            <label for="feminin" class="title3">Feminin</label>
+
+        </fieldset>
+
+    <br>
+
+        <label for="pays" class="title3">Pays</label>
+            <select id="pays" name="pays" class="select">
+                <option value="France" class="title3">France</option>
+                <option value="Tunisie" class="title3">Tunisie</option>
+                <option value="Italie" selected class="title3">Italie</option>
+                <option value="Maroc" class="title3">Maroc</option>
+              </select>
+              <br><br>
+              <button id="btn" class="btn">suivant</button>
+
+            </fieldset>
+    </form>
+    <script src="form.js" async></script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,127 @@
+body{
+    background-color: burlywood;
+
+}
+
+.form {
+    text-align: center;
+    font-size: 1em;
+    font-weight:400;
+    margin-top: 50px;
+  
+    
+
+}
+.fieldset{
+    border: 1px solid rgba(148, 86, 11, 0.6); 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px 30px; 
+    margin: 30px auto;
+    width: 50%; 
+    background-color: rgb(251, 251, 251);
+
+}
+.minfieldset{
+    border: 1px solid rgba(148, 86, 11, 0.6); 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px 30px; 
+    margin: 20px auto;
+    width: 50%; 
+    
+    }
+
+.titre{
+    color:rgb(94, 53, 7);
+    font-size: 1.8em;
+    font-weight: 600;
+    margin: 20px;
+
+}
+
+
+.title3{
+    color:rgb(94, 53, 7);
+    font-size: 0.8em;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.inputbox {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid rgba(148, 86, 11, 0.6);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.inputbox:hover {
+    background-color: rgb(239, 219, 190);}
+
+.inputbox:focus {
+    outline: none;
+    border-color: rgb(148, 86, 11);
+}
+
+.btn{    
+    background-color: rgb(148, 86, 11); 
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 80px;
+}
+
+.btn:hover {
+    background-color: rgb(115, 66, 8);}
+
+
+
+.select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid rgba(148, 86, 11, 0.6);
+    border-radius: 5px;
+    font-size: 1em;
+    }
+
+.select:hover {
+    background-color: rgb(239, 219, 190);}
+    
+.select:focus {
+    outline: none;
+    border-color: rgb(148, 86, 11);
+    }
+
+
+
+input[type="radio"] {
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none; 
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 0.8px solid rgb(94, 53, 7);
+    background-color: white;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+input[type="radio"]:checked {
+    background-color: rgb(94, 53, 7); 
+    border-color: rgb(94, 53, 7); 
+}
+
+
+input[type="radio"]:hover {
+    border-color: rgb(115, 66, 8); 
+}
